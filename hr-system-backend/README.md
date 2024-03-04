@@ -78,14 +78,15 @@ java -jar target/human-resources-system.jar
 
 Usage
 
-
 Access the application through the provided URL.
+
 Register administrators and manage user roles as needed.
+
 Use the various modules to manage employee data, recruitment, payroll, benefits, performance, training, and more.
+
 Explore analytics and generate reports to gain insights into HR activities.
 
 Contributing
-
 
 Contributions are welcome! Please fork the repository and submit a pull request with your proposed changes.
 

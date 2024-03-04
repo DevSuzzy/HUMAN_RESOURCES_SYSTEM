@@ -60,7 +60,7 @@ To run this project, follow these steps:
 Clone the repository to your local machine:
 
 
-git clone https://github.com/DevSuzzy/human-s-system.git
+git clone https://github.com/DevSuzzy/human-resources-system.git
 
 Navigate to the project directory:
 

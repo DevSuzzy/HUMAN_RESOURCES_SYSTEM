@@ -2,6 +2,10 @@
 
 HUMAN RESOURCES SYSTEM
 ======================
+
+
+
+
 Welcome to the Human Resources System! This project is aimed at developing a comprehensive Human Resources management system to streamline and automate various HR processes within an organization. It provides a centralized platform for managing all aspects of an organization's human resources, including employees, payroll, benefits, recruitment, training, performance management, and more.
 
 Table of Contents

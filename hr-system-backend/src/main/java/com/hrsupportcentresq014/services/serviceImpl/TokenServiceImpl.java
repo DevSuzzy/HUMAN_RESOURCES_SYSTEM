@@ -14,6 +14,24 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.stereotype.Component;
 
+/**
+ * The TokenServiceImpl class implements the TokenService interface to handle user authentication and token management in the HR Support Centre system.
+ *
+ * Key Features:
+ * - Authenticates users based on their email and password credentials.
+ * - Generates JWT tokens upon successful authentication.
+ * - Saves generated tokens and updates user login status.
+ * - Revokes existing tokens when a user logs in, preventing multiple active sessions.
+ *
+ * If I were to solve this problem again:
+ * - I would consider implementing additional security measures such as rate limiting to prevent brute force attacks.
+ * - I would optimize the token management logic for better performance, especially in scenarios with a large number of concurrent users.
+ * - I would enhance error handling to provide more informative error messages for different authentication scenarios.
+ * - I would explore integrating with third-party authentication providers for enhanced security and flexibility.
+ *
+ */
+
+
 
 
 @Component

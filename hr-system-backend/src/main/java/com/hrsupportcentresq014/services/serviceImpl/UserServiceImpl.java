@@ -19,6 +19,17 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 import java.util.Optional;
 
+/**
+ * This class implements the UserService interface to handle user-related operations,
+ * with a primary focus on registering administrators.
+ * It includes methods for validating date of birth, registering administrators,
+ * and handling exceptions related to the registration process.
+ * Dependencies on Mapper, EmployeeRepository, and RoleRepository are injected
+ * via constructor-based dependency injection.
+ * Logging functionality is provided through SLF4J framework for recording information, errors, and warnings.
+ */
+
+
 
 @RequiredArgsConstructor
 @Slf4j

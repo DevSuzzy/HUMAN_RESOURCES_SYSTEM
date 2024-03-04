@@ -23,6 +23,23 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * The HRController class manages HR-specific functionalities within the HR Support Centre system.
+ * It handles operations such as registering new staff, creating job postings, and updating job statuses.
+ *
+ * Key Features:
+ * - Supports HR staff in registering new employees and creating job postings.
+ * - Allows HR staff to view all staff members and update job statuses.
+ * - Implements authorization checks to ensure only authorized HR users can perform certain actions.
+ *
+ * If I were to solve this problem again:
+ * - I would enhance input validation to ensure data integrity and prevent potential security vulnerabilities.
+ * - I would consider implementing background job processing for time-consuming tasks like email notifications or database operations.
+ * - I would explore integrating monitoring tools like Prometheus or Grafana for performance analysis and optimization.
+ *
+ */
+
+
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @Slf4j
@@ -30,9 +47,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/v1/hr")
 //@PreAuthorize("hasRole('HR')")
 public class HRController {
-  // This is a must read for guys working on these end points read below
-  // if you want to mark any endpoint for fine-grained authorization refer to the Enum roles to see the specific roles
-  // and the Enum permissions that the HR has for that particular endpoint then you can mark with @PreAuthorize("hasAuthority('hr:create')")
+
   private final HrService hrService;
   private RoleRepository roleRepository;
   private final EmployeeRepository employeeRepository;

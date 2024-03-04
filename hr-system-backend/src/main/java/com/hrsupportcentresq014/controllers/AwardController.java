@@ -15,6 +15,24 @@ import org.springframework.web.bind.annotation.*;
 
 import java.nio.file.AccessDeniedException;
 import java.util.Collection;
+
+
+
+/**
+ * The AwardController class manages operations related to awards within the HR Support Centre system.
+ * It facilitates the creation of new awards, retrieval of awards by year, and fetching all awards.
+ *
+ * Key Features:
+ * - Supports the creation of new awards by authorized users.
+ * - Allows users to retrieve awards by a specific year and fetch all awards paginated.
+ * - Implements authorization checks to ensure only authorized users can perform certain actions.
+ *
+ * If I were to solve this problem again:
+ * - I would improve error handling to provide more informative responses in case of exceptions or invalid requests.
+ * - I would consider implementing caching mechanisms for frequently accessed award data to improve performance.
+ * - I would enhance the documentation of API endpoints for better developer understanding and usability.
+ */
+
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequiredArgsConstructor

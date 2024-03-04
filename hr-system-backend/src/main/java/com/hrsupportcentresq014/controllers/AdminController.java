@@ -18,6 +18,24 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.security.access.prepost.PreAuthorize;
 
+/**
+ * This AdminController class manages administrative functionalities within the HR Support Centre system.
+ * It handles requests related to user registration, role management, and permission assignment.
+ *
+ * Key Features:
+ * - Allows registration of admin users and HR staff members.
+ * - Supports adding roles and assigning permissions to roles.
+ * - Utilizes Spring Security annotations for authorization checks.
+ *
+ * If I were to solve this problem again:
+ * - I would maintain the use of Spring Security for role-based access control, as it provides a robust framework for managing permissions.
+ * - I would enhance error handling to provide more informative responses for different failure scenarios.
+ * - I would explore integrating Swagger for API documentation to improve the developer experience.
+ * - I would consider implementing more comprehensive unit and integration tests to ensure the reliability of the endpoints.
+ */
+
+
+
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequiredArgsConstructor

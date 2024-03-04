@@ -21,6 +21,24 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
+
+/**
+ * The JobServiceImpl class implements the JobService interface and provides functionalities
+ * for filtering and retrieving job listings in the HR Support Centre system.
+ *
+ * Key Features:
+ * - Filters job listings based on keywords, department, and date filters.
+ * - Retrieves job listings according to specified sorting criteria (newest, oldest, past week).
+ * - Handles MongoDB queries to fetch and process job data efficiently.
+ *
+ * If I were to solve this problem again:
+ * - I would enhance the error handling mechanism to provide more informative error messages.
+ * - I would optimize database queries and improve performance, especially for large datasets.
+ * - I would explore ways to modularize the code further to enhance readability and maintainability.
+ * - I would consider implementing caching mechanisms to improve response times for frequently accessed data.
+ *
+ */
+
 @Service
 public class JobServiceImpl implements JobService {
 

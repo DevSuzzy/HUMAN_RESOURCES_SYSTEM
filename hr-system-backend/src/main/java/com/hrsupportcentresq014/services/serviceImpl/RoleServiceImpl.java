@@ -17,6 +17,22 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 
+/**
+ * The RoleServiceImpl class implements the RoleService interface to manage roles and permissions in the HR Support Centre system.
+ *
+ * Key Features:
+ * - Allows adding roles with specific permissions.
+ * - Enables adding permissions to existing roles.
+ * - Validates user authorization before performing role-related operations.
+ *
+ * If I were to solve this problem again:
+ * - I would enhance error handling to provide more detailed error messages for better user understanding.
+ * - I would consider implementing role-based access control (RBAC) to manage user permissions more efficiently.
+ * - I would explore integrating with existing authorization frameworks for improved security and flexibility.
+ * - I would optimize the code for better performance, especially when handling a large number of roles and permissions.
+ *
+ */
+
 @Service
 @RequiredArgsConstructor
 public class RoleServiceImpl implements RoleService {

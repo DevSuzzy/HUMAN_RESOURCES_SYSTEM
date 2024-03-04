@@ -15,6 +15,25 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+
+/**
+ * The PasswordResetRequestServiceImpl class implements the PasswordResetRequestService interface to handle password reset requests in the HR Support Centre system.
+ *
+ * Key Features:
+ * - Generates a unique reset token and sets an expiration date for password reset requests.
+ * - Sends an email to the user with a password reset link containing the reset token.
+ * - Completes the password reset process by updating the user's password based on the reset token.
+ *
+ * If I were to solve this problem again:
+ * - I would enhance security measures by implementing token validation mechanisms to prevent misuse of reset tokens.
+ * - I would improve error handling for edge cases such as invalid or expired tokens.
+ * - I would consider adding logging functionality to track password reset activities for audit purposes.
+ * - I would explore additional authentication methods for password reset to enhance user experience and security.
+ *
+
+ */
+
+
 @Service
 public class PasswordResetRequestServiceImpl implements PasswordResetRequestService {
     private final PasswordResetRequestRepository resetRequestRepo;

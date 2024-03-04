@@ -45,6 +45,25 @@ import java.util.stream.Collectors;
 import static java.lang.String.valueOf;
 
 
+/**
+ * The HrServiceImpl class implements the business logic for HR-related operations in the HR Support Centre system.
+ * It provides functionalities such as registering staff, posting job vacancies, viewing staff details, and changing job statuses.
+ *
+ * Key Features:
+ * - Registers new staff members with unique email addresses and generates temporary passwords for them.
+ * - Posts job vacancies with specified details such as title, description, requirements, and closing date.
+ * - Allows HR users to view details of all staff members, including their names, positions, email addresses, and departments.
+ * - Enables HR users to change the status of job postings, such as activating or deactivating them.
+ *
+ * If I were to solve this problem again:
+ * - I would enhance error handling by providing more specific error messages and handling edge cases more thoroughly.
+ * - I would implement better authorization mechanisms to ensure that only authorized users can perform sensitive operations.
+ * - I would optimize database queries and improve performance, especially for operations involving large datasets.
+ * - I would refactor the code to improve readability, maintainability, and adherence to best practices.
+ *
+ */
+
+
 @Service
 @Slf4j
 @RequiredArgsConstructor

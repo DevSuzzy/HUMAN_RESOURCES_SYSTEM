@@ -15,6 +15,24 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDate;
 
 
+/**
+ * The Mapper class provides mapping functionalities between DTOs (Data Transfer Objects) and entities in the HR Support Centre system.
+ *
+ * Key Features:
+ * - Maps AdminRequest DTO to Employee entity and vice versa.
+ * - Maps JobPostingRequest DTO to Job entity and vice versa.
+ * - Provides mapping from entities to response DTOs for Admin and JobPosting.
+ * - Utilizes PasswordEncoder to encode passwords securely.
+ *
+ * If I were to solve this problem again:
+ * - I would consider using more sophisticated mapping libraries like MapStruct to reduce manual mapping code.
+ * - I would improve error handling for mapping operations to handle edge cases more gracefully.
+ * - I would explore caching mechanisms for frequently used mappings to improve performance.
+ * - I would enhance the mapping logic to handle more complex scenarios, such as nested objects or inheritance.
+ *
+ */
+
+
 
 
 @Component

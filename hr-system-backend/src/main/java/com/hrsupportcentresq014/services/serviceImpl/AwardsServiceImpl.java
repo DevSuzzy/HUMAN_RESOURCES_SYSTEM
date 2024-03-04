@@ -17,6 +17,22 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 import java.util.List;
 
+/**
+ * The AwardsServiceImpl class implements the AwardService interface to handle award-related operations.
+ * It provides functionalities for creating awards, retrieving awards by year, and fetching all awards.
+ *
+ * Key Features:
+ * - Supports the creation of new awards with title, description, and year.
+ * - Allows retrieval of awards by a specific year and fetching all awards paginated.
+ * - Implements error handling for cases where awards are not found or encountered exceptions.
+ *
+ * If I were to solve this problem again:
+ * - I would enhance input validation to ensure data integrity and prevent potential security vulnerabilities.
+ * - I would optimize database queries for improved performance, especially for fetching all awards.
+ * - I would consider implementing asynchronous processing for non-blocking execution of certain operations.
+ *
+ */
+
 
 @Service
 public class AwardsServiceImpl implements AwardService {

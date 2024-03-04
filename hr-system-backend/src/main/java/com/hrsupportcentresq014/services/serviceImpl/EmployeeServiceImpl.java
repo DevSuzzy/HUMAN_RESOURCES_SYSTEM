@@ -33,6 +33,26 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.UUID;
 
+/**
+ * The EmployeeServiceImpl class implements the business logic for managing employees in the HR Support Centre system.
+ * It provides functionalities such as creating HR users, updating employee profiles, uploading documents, viewing profiles, and changing passwords.
+ *
+ * Key Features:
+ * - Creates HR users with unique email addresses and generates temporary passwords for them.
+ * - Updates employee profiles based on the provided EmployeeProfileRequest.
+ * - Allows uploading profile pictures and resumes for employees.
+ * - Enables employees to view their profiles with relevant information.
+ * - Implements password change functionality with verification of the current password.
+ *
+ * If I were to solve this problem again:
+ * - I would enhance security measures, such as implementing two-factor authentication for sensitive operations.
+ * - I would refactor the code to improve modularity and maintainability, possibly using a cleaner architectural pattern like MVC or Hexagonal.
+ * - I would optimize file uploading and processing to handle large files more efficiently.
+ * - I would incorporate more comprehensive error handling and logging to enhance system reliability and debugging capabilities.
+ *
+ */
+
+
 @Service
 @RequiredArgsConstructor
 

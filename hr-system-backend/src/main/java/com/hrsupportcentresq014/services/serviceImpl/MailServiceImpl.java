@@ -10,6 +10,23 @@ import org.springframework.stereotype.Service;
 
 import java.nio.charset.StandardCharsets;
 
+
+/**
+ * The MailServiceImpl class provides implementation for sending emails in the HR Support Centre system.
+ *
+ * Key Features:
+ * - Implements the MailService interface to define methods for sending different types of emails.
+ * - Uses JavaMailSender to send MIME messages with text and HTML content.
+ * - Utilizes properties from application.properties file for configuring sender email address.
+ *
+ * If I were to solve this problem again:
+ * - I would enhance error handling to provide more descriptive error messages or log errors appropriately.
+ * - I would consider implementing email templating to create standardized and visually appealing emails.
+ * - I would explore integrating with external email services for better scalability and reliability.
+ * - I would optimize the code for better performance, such as by reducing code duplication and improving readability.
+ *
+ */
+
 @Service
 public class MailServiceImpl implements MailService {
     private final JavaMailSender javaMailSender;

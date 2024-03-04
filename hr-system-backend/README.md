@@ -10,23 +10,17 @@ Welcome to the Human Resources System! This project is aimed at developing a com
 
 Table of Contents
 
+Features
 
-#Features
+Prerequisites
 
+Installation
 
-#Prerequisites
+Usage
 
+Contributing
 
-#Installation
-
-
-#Usage
-
-
-#Contributing
-
-
-#License
+License
 
 
 User Management: Register and manage users with different roles (e.g., administrators, employees).
@@ -85,10 +79,10 @@ java -jar target/human-resources-system.jar
 Usage
 
 
-*Access the application through the provided URL.
-*Register administrators and manage user roles as needed.
-*Use the various modules to manage employee data, recruitment, payroll, benefits, performance, training, and more.
-*Explore analytics and generate reports to gain insights into HR activities.
+Access the application through the provided URL.
+Register administrators and manage user roles as needed.
+Use the various modules to manage employee data, recruitment, payroll, benefits, performance, training, and more.
+Explore analytics and generate reports to gain insights into HR activities.
 
 Contributing
 

@@ -1,6 +1,7 @@
 
 
 HUMAN RESOURCES SYSTEM
+======================
 Welcome to the Human Resources System! This project is aimed at developing a comprehensive Human Resources management system to streamline and automate various HR processes within an organization. It provides a centralized platform for managing all aspects of an organization's human resources, including employees, payroll, benefits, recruitment, training, performance management, and more.
 
 Table of Contents
@@ -13,16 +14,25 @@ Table of Contents
 
 
 User Management: Register and manage users with different roles (e.g., administrators, employees).
+
 Employee Information Management: Store and manage comprehensive employee data, including personal details, employment history, and performance evaluations.
+
 Recruitment and Onboarding: Facilitate the entire recruitment process, from posting job vacancies to onboarding new hires.
+
 Time and Attendance Tracking: Track employee work hours, attendance, leave requests, and overtime.
+
 Payroll and Benefits Administration: Streamline payroll processing and benefits administration, including enrollment and eligibility verification.
+
 Performance Management: Set goals, provide feedback, conduct performance reviews, and track employee progress.
+
 Learning and Development: Deliver training programs, courses, and certifications to employees.
+
 Employee Self-Service: Provide self-service portals for employees to access their own information, submit requests, and enroll in benefits.
+
 Analytics and Reporting: Analyze workforce data, track key metrics, and generate reports on various HR activities.
 
-Prerequisites
+Prerequisites:
+
 Before running this project, ensure you have the following prerequisites installed:
 
 Java Development Kit (JDK) 8 or later
